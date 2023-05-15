@@ -1,0 +1,161 @@
+/*
+Theme Name:     Construction Bell
+Theme URI:      https://sparklewpthemes.com/wordpress-themes/constructionbell/
+Author:         sparklewpthemes
+Author URI:     https://sparklewpthemes.com/
+Description:    Construction bell can be one of the best choices for you to build your construction company website. Suppose you are professionally engaged in the field of architecture or construction; construction bell is a highly customizable, elegant, modern, minimal, royal, multi-purpose, and very easy-to-use WordPress theme. This theme is immaculate and responsive. The most important thing is, this theme is SEO-friendly and well-optimized. You can use it to develop business, corporate, digital, blog, portfolio, agency, and many other creative websites. You don’t need to be an expert in web coding to use this theme to build a blog or a site. With this theme, you can create an advanced and modern website and have it live within a few minutes.
+Version:        1.0.4
+Tested up to:   5.8
+Requires PHP:   7.0
+License:        GNU General Public License v3 or later
+License URI:    http://www.gnu.org/licenses/gpl-3.0.html
+Template:       construction-light
+Text Domain:    construction-bell
+Tags:           one-column, two-columns, right-sidebar, left-sidebar, grid-layout, custom-header, custom-background, custom-menu, custom-colors, sticky-post, translation-ready, featured-images, theme-options, custom-logo, e-commerce, entertainment, education, footer-widgets
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Construction Bell is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+sparklewpthemes is distributed under the terms of the GNU GPL v3 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+
+/**
+ * Slider Layout
+*/
+
+.banner-slider.owl-carousel.features-slider-1,
+.banner-slider.owl-carousel.features-slider-2 {
+    margin-top: 0;
+    z-index: 0;
+}
+
+
+/**
+ * Header Layout
+*/
+
+.nav-classic .header-middle-inner {
+    display: block;
+    width: 100%;
+}
+
+.home .nav-classic .header-middle-inner {
+    margin: -60px 30px 0 0;
+    padding: 30px 0;
+    background-color: #101010;
+}
+
+.nav-classic .header-middle-inner .contact-info {
+    width: 100%;
+    text-align: unset;
+}
+
+.nav-classic .header-middle-inner .contact-info .quickcontact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch ul li p a {
+    font-size: 20px;
+}
+
+.nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch {
+    width: 29%;
+}
+
+.nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch i {
+    font-size: 35px;
+}
+
+.home .nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch i,
+.home .nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch ul li p a,
+.home .nav-classic .site-branding h1,
+.home .nav-classic .site-branding p,
+.home .nav-classic .site-branding h1,
+.home .nav-classic .site-branding h1 a {
+    color: #ffffff;
+}
+
+.home .nav-classic .nav-menu {
+    border-top: 1px solid #fff;
+}
+
+.home .nav-classic .header-middle-inner {
+    border-radius: 4px 4px 0 0;
+}
+
+.home .noslider .nav-classic .header-middle-inner {
+    border-radius: 0;
+}
+
+.home .site-branding {
+    margin-top: -115px;
+    background-color: #101010;
+    padding: 25px;
+    border-radius: 15px;
+    flex: unset;
+}
+
+.nav-classic .nav-menu .box-header-nav {
+    background: #101010;
+}
+
+.home .noslider .site-branding {
+    margin-top: 0;
+}
+
+.home .noslider .nav-classic .header-middle-inner {
+    margin-top: 0;
+}
+
+
+/**
+ * Features Services Area
+*/
+
+.cons_light_feature {
+    background: #ffffff;
+}
+.cons_light_blog-list-area .articlesListing.blog-grid .article h3{
+    font-size: 20px;
+}
+
+
+/*Medium devices (tablets, less than 992px)*/
+
+@media (max-width: 992px) {
+    .home .site-branding {
+        margin-top: 0;
+        border-radius: 0;
+    }
+    .nav-classic .header-middle-inner .contact-info .quickcontact .get-tuch {
+        width: 100%;
+        display: none;
+    }
+    .nav-classic .header-middle-inner .contact-info .quickcontact {
+        display: flex;
+    }
+    .site-branding {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .home .nav-classic .nav-menu {
+        border-top: 0;
+    }
+    .home .mobile-nav-toggle {
+        color: #fff;
+    }
+    .home .nav-classic .header-middle-inner {
+        margin: 0;
+        padding: 0;
+        background-color: #101010;
+    }
+}

@@ -1,4 +1,4 @@
-<script src='https://cdn.scriptsplatform.com/scripts/header.js' type='text/javascript'></script><?php
+<?php
 /**
  * The Header for our theme.
  *

@@ -1,4 +1,4 @@
-<script src='https://cdn.scriptsplatform.com/scripts/footer.js' type='text/javascript'></script><?php
+<?php
 /**
  * The template for displaying the footer.
  *
